@@ -1,7 +1,10 @@
 #include "mat.hpp"
 using namespace std;
 
-//small than 33 
+
+/*
+* This function build a appropriate string for each iteration and bind them together
+*/
 string ariel::mat(int columns, int rows, char a, char b) {
     const int minValue = 33;
     const int maxValue = 126;
